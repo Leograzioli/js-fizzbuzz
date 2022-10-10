@@ -2,8 +2,8 @@ const row = document.querySelector(".row");
 
 //check numbers 1 to 100 and find those can be divided by 3, 5 or both
 for (let i = 1; i <= 100; i++) {
-    let result = ""
-    
+    let result = "";
+
     if (i % 3 === 0 && i % 5 === 0) {
         result = `fizzbuzz`
     } else if (i % 3 === 0) {
