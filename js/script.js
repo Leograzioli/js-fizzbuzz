@@ -15,10 +15,15 @@ for (let i = 1; i <= 100; i++) {
     };
     
     //output
-    let card = document.createElement("div");
+    const card = document.createElement("div");
     card.classList.add("card");
     card.classList.add(result)
     card.innerHTML += result;
     row.append(card);
+
+    //oppure
+    // const card = `<div class="card ${result}">${i}</div>`;
+    // row.innerHTML += card;
+
 }
 
