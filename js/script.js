@@ -12,7 +12,7 @@ for (let i = 1; i <= 100; i++) {
         result = `buzz`
     } else {
         result = i;
-    }
+    };
     
     //output
     let card = document.createElement("div");
